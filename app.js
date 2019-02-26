@@ -2,7 +2,6 @@
 
 // modules
 let inquirer = require('inquirer');
-let readline = require('readline');
 
 // config
 let Race = require('./config/races.json');
