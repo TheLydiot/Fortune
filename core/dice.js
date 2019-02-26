@@ -2,6 +2,7 @@ var Dice = {};
 
 Dice.roll = (sides, numDice, numKeep) => {
   let dice = [];
+  numDice = numDice || 1;
   for (var i = 0; i < numDice; i++) {
     dice.push(Math.round(Math.random() * (sides - 1)) + 1);
   }

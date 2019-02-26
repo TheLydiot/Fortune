@@ -18,11 +18,21 @@ Chargen.create = (race, klass) => {
   char.attributes = Chargen.rollAttributes(race);
   char.race = race.name;
   char.klass = klass.name;
+
+  // starting HP = 0.5 * CON rounded up + class HD
+  char.maxHP = char.currentHP = Math.round(char.attributes.CON / 2) + Dice.roll(klass.HD);
   char.toString = () => {
     let str = "";
     str += "Race: " + char.race + "\n";
     str += "Class: " + char.klass + "\n";
-    return str;
+    str += "STR:" + char.attributes.STR + " ";
+    str += "DEX:" + char.attributes.DEX + " ";
+    str += "CON:" + char.attributes.CON + " ";
+    str += "INT:" + char.attributes.INT + " ";
+    str += "WIS:" + char.attributes.WIS + " ";
+    str += "CHA:" + char.attributes.CHA + " ";
+    str += "HP:" + char.currentHP;
+    return "\n" + str;
   };
   return char;
 }

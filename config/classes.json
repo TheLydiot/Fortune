@@ -1,15 +1,18 @@
 {
   "Disciple": {
-
+    "name": "Disciple",
+    "HD": "6"
   },
   "Opportunist": {
-
+    "name": "Opportunist",
+    "HD": "6"
   },
   "Warrior": {
-    "name": "Warrior"
-
+    "name": "Warrior",
+    "HD": 8
   },
   "Wizard": {
-
+    "name": "Wizard",
+    "HD": 4
   }
 }
