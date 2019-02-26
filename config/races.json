@@ -8,9 +8,7 @@
       "INT": [4, 4, 4],
       "WIS": [6, 4, 3],
       "CHA": [6, 4, 3]
-    },
-    "backgrounds": [],
-    "classes": ["Disciple", "Opportunist", "Warrior"]
+    }
   },
   "Elf": {
     "name": "Elf",
@@ -21,9 +19,7 @@
       "INT": [6, 5, 3],
       "WIS": [6, 4, 3],
       "CHA": [6, 4, 3]
-    },
-    "backgrounds": [],
-    "classes": ["Disciple", "Opportunist", "Warrior", "Wizard"]
+    }
   },
   "Halfling": {
     "name": "Halfling",
@@ -34,9 +30,7 @@
       "INT": [4, 4, 4],
       "WIS": [6, 4, 3],
       "CHA": [6, 5, 3]
-    },
-    "backgrounds": [],
-    "classes": ["Disciple", "Opportunist", "Warrior"]
+    }
   },
   "Human": {
     "name": "Human",
@@ -47,8 +41,6 @@
       "INT": [6, 4, 3],
       "WIS": [6, 4, 3],
       "CHA": [6, 4, 3]
-    },
-    "backgrounds": [],
-    "classes": ["Disciple", "Opportunist", "Warrior", "Wizard"]
+    }
   }
 }

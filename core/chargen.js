@@ -13,18 +13,24 @@ Chargen.rollAttributes = (race) => {
   return atts;
 };
 
-Chargen.create = (race, klass) => {
+Chargen.create = (race, klass, bgs) => {
   let char = {};
   char.attributes = Chargen.rollAttributes(race);
   char.race = race.name;
   char.klass = klass.name;
 
+  // random background
+  let bgKeys = Object.keys(bgs);
+  char.background = bgKeys[bgKeys.length * Math.random() << 0];
+
   // starting HP = 0.5 * CON rounded up + class HD
   char.maxHP = char.currentHP = Math.round(char.attributes.CON / 2) + Dice.roll(klass.HD);
+
   char.toString = () => {
     let str = "";
-    str += "Race: " + char.race + "\n";
-    str += "Class: " + char.klass + "\n";
+    str += "Race:" + char.race + " ";
+    str += "Class:" + char.klass + " ";
+    str += "Background:" + char.background + "\n";
     str += "STR:" + char.attributes.STR + " ";
     str += "DEX:" + char.attributes.DEX + " ";
     str += "CON:" + char.attributes.CON + " ";
