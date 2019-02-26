@@ -1,0 +1,46 @@
+{
+  "Dwarf": {
+    "name": "Dwarf",
+    "attributes": {
+      "STR": [6, 5, 3],
+      "DEX": [4, 4, 4],
+      "CON": [6, 5, 3],
+      "INT": [4, 4, 4],
+      "WIS": [6, 4, 3],
+      "CHA": [6, 4, 3]
+    }
+  },
+  "Elf": {
+    "name": "Elf",
+    "attributes": {
+      "STR": [4, 4, 4],
+      "DEX": [6, 5, 3],
+      "CON": [4, 4, 4],
+      "INT": [6, 5, 3],
+      "WIS": [6, 4, 3],
+      "CHA": [6, 4, 3]
+    }
+  },
+  "Halfling": {
+    "name": "Halfling",
+    "attributes": {
+      "STR": [4, 4, 4],
+      "DEX": [6, 5, 3],
+      "CON": [6, 4, 3],
+      "INT": [4, 4, 4],
+      "WIS": [6, 4, 3],
+      "CHA": [6, 5, 3]
+    }
+  },
+  "Human": {
+    "name": "Human",
+    "attributes": {
+      "STR": [6, 4, 3],
+      "DEX": [6, 4, 3],
+      "CON": [6, 4, 3],
+      "INT": [6, 4, 3],
+      "WIS": [6, 4, 3],
+      "CHA": [6, 4, 3]
+    }
+  }
+}

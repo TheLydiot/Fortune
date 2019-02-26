@@ -1,8 +1,9 @@
-var Dice = require('./dice.js');
+let Dice = require('./dice.js');
 
-var Combat = {};
+let Combat = {};
 
-Combat.attack = (attackRoll, defender, modifiers) => {
+Combat.attack = (attacker, defender, situation) => {
+  let attackRoll = Dice.roll(20, 1) + attacker.attackBonus;
 
 };
 
