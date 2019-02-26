@@ -1,0 +1,43 @@
+{
+  "description": "Enchantment spells affect the minds of others, influencing or controlling their behavior. Such spells can make enemies see the caster as a friend, force creatures to take a course of action, or even control another creature like a puppet.",
+  "spells": {
+    "0": {
+
+    },
+    "1": {
+      "Bane": {
+        "castTime": {
+          "length": "1",
+          "unit": "Action"
+        },
+        "range": {
+          "source": "Self",
+          "target": "Self",
+          "size": {
+            "type": "Perception"
+          }
+        },
+        "components": {
+          "v": null,
+          "s": null,
+          "m": "a pinch of soot and salt"
+        },
+        "duration": {
+          "type": "Passive",
+          "limit": {
+            "length": "1",
+            "unit": "Hour"
+          }
+        },
+        "description": [
+        ]
+      },
+      "Bless": {
+
+      },
+      "Command": {
+        
+      }
+    }
+  }
+}
