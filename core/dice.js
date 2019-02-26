@@ -1,11 +1,12 @@
 var Dice = {};
 
-Dice.roll = (sides, numDice) => {
-  let total = 0;
+Dice.roll = (sides, numDice, numKeep) => {
+  let dice = [];
   for (var i = 0; i < numDice; i++) {
-    total += Math.round(Math.random() * sides);
+    dice.push(Math.round(Math.random() * (sides - 1)) + 1);
   }
-  return total;
+  // sort, keep, and sum
+  return dice.sort().splice(numDice - numKeep).reduce((total, num) => { return total + num; });
 };
 
 module.exports = Dice;
