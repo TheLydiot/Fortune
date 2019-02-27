@@ -18,36 +18,45 @@ CF.Create = (race) => {
   //  player can choose race
   race = race || CF.AssignRace();
   char.race = race;
+
+  //  but background and traits are random
   char.background = CF.AssignBackground(char.race);
   char.traits = CF.AssignTraits(char.race, char.background)
 
   //  generate attributes
+  char.attributes = CF.RollAttributes(char.race, char.background, char.traits);
+
+  //  player chooses class and name
+  char.level = 0;
   char.name = null;
   char.class = null;
-  char.level = 0;
-  char.attributes = CF.RollAttributes(char.race, char.background, char.traits);
   char.maxHP = char.currentHP = null;
   char.maxSP = char.currentSP = null;
 
   char.toString = () => {
     let str = "";
-    str += "Name:" + char.name + " Race:" + char.race + "\n";
-    str += "Background: " + char.background + " Traits:" + char.traits + "\n";
-    str += "Class: " + char.class + " Level:" + char.level + "\n";
+    str += "Name:" + char.name + "  " + "Race:" + char.race + "\n";
+    str += "Background:" + char.background + "  " + "Traits:" + char.traits + "\n";
+    str += "Class:" + char.class + "  " + "Level:" + char.level + "\n";
+    str += "HP:" + char.currentHP + "/" + char.maxHP + "  " + "SP:" + char.currentSP + "/" + char.maxSP + "\n";
     str += char.attributes.toString();
     return str;
   }
   return char;
 }
 
-CF.AssignRace = () => {
-  let races = Object.keys(CF.Race);
-  return races[races.length * Math.random() << 0];
-}
-
 CF.AssignBackground = (race) => {
   let bgs = CF.Race[race].backgrounds;
   return bgs[bgs.length * Math.random() << 0];
+}
+
+CF.AssignClass = (race, background) => {
+
+}
+
+CF.AssignRace = () => {
+  let races = Object.keys(CF.Race);
+  return races[races.length * Math.random() << 0];
 }
 
 CF.AssignTraits = (race, background) => {
@@ -84,11 +93,11 @@ CF.RollAttributes = (race, background, traits) => {
 
   atts.toString = () => {
     let str = "";
-    str += "STR:" + atts.STR + " ";
-    str += "DEX:" + atts.DEX + " ";
-    str += "CON:" + atts.CON + " ";
-    str += "INT:" + atts.INT + " ";
-    str += "WIS:" + atts.WIS + " ";
+    str += "STR:" + atts.STR + "  ";
+    str += "DEX:" + atts.DEX + "  ";
+    str += "CON:" + atts.CON + "  ";
+    str += "INT:" + atts.INT + "  ";
+    str += "WIS:" + atts.WIS + "  ";
     str += "CHA:" + atts.CHA + "\n";
     return str;
   }

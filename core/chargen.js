@@ -1,24 +1,4 @@
-let Dice = require('./dice');
 
-let Chargen = {};
-Chargen.Races = require('../config/races');
-Chargen.Klasses = require('../config/classes');
-Chargen.Backgrounds = require('../config/backgrounds');
-Chargen.Traits = require('../config/traits');
-Chargen.Alignments = require('../config/alignments');
-
-
-
-Chargen.create = (race) => {
-  let char = {};
-
-  //  player chooses race
-  char.race = race.name;
-
-  //  generate attributes
-  char.attributes = Chargen.rollAttributes(race);
-  char.height = null;
-  char.weight = null;
 
   //  random background, traits (one physical one mental), and gold/starting gear
   //  background assigns traits in combo with race
@@ -36,23 +16,6 @@ Chargen.create = (race) => {
   char.inventory.wear.push("normal clothing");
   char.inventory.hold = [];
 
-  return char;
-}
-
-Chargen.assignAlignment = (char) => {
-
-  return char;
-}
-
-  //  player chooses alignment, class, and equipment
-  char.klass = 
-
-  //  DM returns final scores and story
-
-  // assign class as a separate function?  makes multi-classing easy
-
-
-
 
   // starting HP = 0.5 * CON rounded up + class HD
   char.maxHP = char.currentHP = Math.round(char.attributes.CON / 2) + Dice.roll(klass.HD);
@@ -62,25 +25,3 @@ Chargen.assignAlignment = (char) => {
 
   // story = log of events
   char.story = [];
-
-  char.toString = () => {
-    let str = "";
-    str += "Race:" + char.race + " ";
-    str += "Class:" + char.klass + "\n";
-    str += "Background:" + char.background + " ";
-    str += "Traits:" + char.traits + "\n";
-    str += "STR:" + char.attributes.STR + " ";
-    str += "DEX:" + char.attributes.DEX + " ";
-    str += "CON:" + char.attributes.CON + " ";
-    str += "INT:" + char.attributes.INT + " ";
-    str += "WIS:" + char.attributes.WIS + " ";
-    str += "CHA:" + char.attributes.CHA + " ";
-    str += "HP:" + char.currentHP + " ";
-    str += "SP:" + char.currentSP + "\n";
-    str += "Story:" + char.story;
-    return "\n" + str;
-  };
-  return char;
-}
-
-module.exports = Chargen;
