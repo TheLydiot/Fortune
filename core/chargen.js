@@ -1,6 +1,10 @@
-let Dice = require('./dice.js');
+let Dice = require('./dice');
 
 let Chargen = {};
+Chargen.Races = require('../config/races');
+Chargen.Klasses = require('../config/classes');
+Chargen.Backgrounds = require('../config/backgrounds');
+Chargen.Traits = require('../config/traits');
 
 Chargen.rollAttributes = (race) => {
   let atts = {};
@@ -20,8 +24,12 @@ Chargen.create = (race, klass, bgs) => {
   char.klass = klass.name;
 
   // random background
-  let bgKeys = Object.keys(bgs);
+  let bgKeys = Object.keys(Chargen.Backgrounds);
   char.background = bgKeys[bgKeys.length * Math.random() << 0];
+
+  // random traits
+  let traitKeys = Object.keys(Chargen.Traits);
+  char.traits = [].push(traitKeys[traitKeys.length * Math.random() << 0]);
 
   // starting HP = 0.5 * CON rounded up + class HD
   char.maxHP = char.currentHP = Math.round(char.attributes.CON / 2) + Dice.roll(klass.HD);
@@ -29,8 +37,9 @@ Chargen.create = (race, klass, bgs) => {
   char.toString = () => {
     let str = "";
     str += "Race:" + char.race + " ";
-    str += "Class:" + char.klass + " ";
-    str += "Background:" + char.background + "\n";
+    str += "Class:" + char.klass + "\n";
+    str += "Background:" + char.background + " ";
+    str += "Traits:" + char.traits + "\n";
     str += "STR:" + char.attributes.STR + " ";
     str += "DEX:" + char.attributes.DEX + " ";
     str += "CON:" + char.attributes.CON + " ";
