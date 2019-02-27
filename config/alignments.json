@@ -1,12 +1,24 @@
 {
   "description": "",
   "lawful": {
+    "description": [
 
+    ],
+    "attribute": "WIS",
+    "effect": "1"
   },
   "neutral": {
+    "description": [
 
+    ],
+    "attribute": "CHA",
+    "effect": "1"
   },
   "chaotic": {
+    "description": [
 
-  },
+    ],
+    "attribute": "INT",
+    "effect": "1"
+  }
 }

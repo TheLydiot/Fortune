@@ -1,18 +1,77 @@
 {
+  "description": [
+    "from attribute list, pick 2 and roll-over d20 to improve"
+  ],
+  "Bard": {
+    "name": "Bard",
+    "HD": "4",
+    "SD": "8",
+    "attributes": ["INT", "WIS", "CHA"],
+    "notes": [
+
+    ]
+  },
+  "Champion": {
+    "name": "Champion",
+    "HD": "6",
+    "SD": "6",
+    "attributes": ["STR","WIS","CHA"],
+    "notes": [
+
+    ]
+  },
   "Disciple": {
     "name": "Disciple",
-    "HD": "6"
+    "HD": "6",
+    "SD": "6",
+    "attributes": ["STR", "DEX", "CON", "WIS"],
+    "notes": [
+      "When leveling, can choose HD/SD 6 or 8"
+    ]
   },
-  "Opportunist": {
-    "name": "Opportunist",
-    "HD": "6"
+  "Fighter": {
+    "name": "Fighter",
+    "HD": "8",
+    "SD": "4",
+    "attributes": ["STR", "DEX", "CON"],
+    "notes": [
+
+    ]
   },
-  "Warrior": {
-    "name": "Warrior",
-    "HD": 8
+  "Priest": {
+    "name": "Priest",
+    "HD": "4",
+    "SD": "8",
+    "attributes": ["WIS", "CHA"],
+    "notes": [
+
+    ]
+  },
+  "Rogue": {
+    "name": "Rogue",
+    "HD": "6",
+    "SD": "6",
+    "attributes": ["STR", "DEX", "CON", "INT", "WIS", "CHA"],
+    "notes": [
+
+    ]
+  },
+  "Wanderer": {
+    "name": "Wanderer",
+    "HD": "6",
+    "SD": "6",
+    "attributes": ["DEX", "CON", "WIS"],
+    "notes": [
+
+    ]
   },
   "Wizard": {
     "name": "Wizard",
-    "HD": 4
+    "HD": "4",
+    "SD": "8",
+    "attibutes": ["INT", "WIS", "CON"],
+    "notes": [
+      
+    ]
   }
 }

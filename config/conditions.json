@@ -1,3 +1,59 @@
 {
-  
+  "description": "temporary traits",
+  "blinded": {},
+  "charmed": {},
+  "deafened": {},
+  "frightened": {},
+  "grappled": {},
+  "incapacitated": {},
+  "invisible": {},
+  "paralyzed": {},
+  "petrified": {},
+  "poisoned": {},
+  "prone": {},
+  "restrained": {},
+  "unconscious": {},
+  "bleeding": {},
+  "weak": {
+    "description": [
+      "You can't exert much force.  Maybe it's just fatigue and injury, or maybe your strength was drained by magic."
+    ],
+    "attribute": "STR",
+    "effect": "Disadvantage"
+  },
+  "shaky": {
+    "description": [
+      "You're unsteady on your feet and you've got a shake in your hands."
+    ],
+    "attribute": "DEX",
+    "effect": "Disadvantage"
+  },
+  "sick": {
+    "description": [
+      "Something just isn't right inside.  Maybe you've got a disease or a wasting illness.  Maybe you just drank too much ale last night and it's coming back to haunt you."
+    ],
+    "attribute": "CON",
+    "effect": "Disadvantage"
+  },
+  "stunned": {
+    "description": [
+      "That last knock to head shook something loose.  Brain not work so good."
+    ],
+    "attribute": "INT",
+    "effect": "Disadvantage"
+  },
+  "confused": {
+    "description": [
+      "Ears ringing.  Vision blurred.  You're more than a little out of it."
+    ],
+    "attribute": "WIS",
+    "effect": "Disadvantage"
+  },
+  "scarred": {
+    "description": [
+      "It may not be permanent, but for now you don't look so good."
+    ],
+    "attribute": "CHA",
+    "effect": "Disadvantage"
+  }
 }

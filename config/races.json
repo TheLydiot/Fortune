@@ -8,18 +8,23 @@
       "INT": [4, 4, 4],
       "WIS": [6, 4, 3],
       "CHA": [6, 4, 3]
-    }
+    },
+    "classes": ["Bard", "Priest", "Rogue", "Fighter"]
   },
   "Elf": {
     "name": "Elf",
+    "description": [
+      "A race of beautiful, severe, disciplined academics."
+    ],
     "attributes": {
       "STR": [4, 4, 4],
-      "DEX": [6, 5, 3],
+      "DEX": [6, 4, 3],
       "CON": [4, 4, 4],
       "INT": [6, 5, 3],
-      "WIS": [6, 4, 3],
+      "WIS": [6, 5, 3],
       "CHA": [6, 4, 3]
-    }
+    },
+    "classes": ["Priest", "Fighter", "Wizard"]
   },
   "Halfling": {
     "name": "Halfling",
@@ -30,7 +35,8 @@
       "INT": [4, 4, 4],
       "WIS": [6, 4, 3],
       "CHA": [6, 5, 3]
-    }
+    },
+    "classes": ["Bard", "Priest", "Rogue"]
   },
   "Human": {
     "name": "Human",
@@ -41,6 +47,7 @@
       "INT": [6, 4, 3],
       "WIS": [6, 4, 3],
       "CHA": [6, 4, 3]
-    }
+    },
+    "classes": ["Priest", "Rogue", "Fighter", "Wizard"]
   }
 }

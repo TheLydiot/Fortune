@@ -1,41 +1,96 @@
 {
+  "description": [
+    "Prior to adventuring.  Listed attribute gets an extra die rolled during chargen."
+  ],
   "Acolyte": {
-
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   },
   "Charlatan": {
-
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   },
   "Criminal": {
-
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   },
   "Entertainer": {
-
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   },
   "Folk Hero": {
-
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   },
   "Guild Artisan": {
-
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   },
   "Hermit": {
-
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   },
   "Noble": {
-
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   },
   "Outlander": {
-
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   },
   "Sage": {
-
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   },
   "Sailor": {
-
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   },
   "Soldier": {
-
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   },
   "Urchin": {
-    
+    "description": [
+      
+    ],
+    "attribute": "WIS",
+    "trait": "1"
   }
 }
