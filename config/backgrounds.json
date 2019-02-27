@@ -1,96 +1,89 @@
 {
   "description": [
-    "Prior to adventuring.  Listed attribute gets an extra die rolled during chargen."
+    "Prior to adventuring.  Listed attributes get an extra die rolled during chargen."
   ],
   "Acolyte": {
     "description": [
-      
+      "You have spent your time in the service of a temple to a specific god or pantheon of gods.  You act as an intermediary between the realm of the holy and the mortal world, performaing sacred rites and ofering sacrifices in order to conduct worshipers into the presence of the divine."
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["INT", "WIS"]
   },
   "Charlatan": {
     "description": [
-      
+      "You have always had a way with people.  You know what makes them tick, you can tease out their hearts' desires after a few minutes of conversation, and with a few leading questions you can read them like they were children's books.  It's a useful talent, and one that you're perfectly willing to use for your advantage."
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["WIS", "CHA"]
   },
   "Criminal": {
     "description": [
-      
+      "You are an experienced criminal with a history of breaking the law.  You have spent a lot of time among other criminals and still have contacts within the criminal underworld.  You're far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society."
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["INT", "CHA"]
   },
   "Entertainer": {
     "description": [
-      
+      "You thrive in front of an audience.  You know how to entrance them, entertain them, and even inspire them.  Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger.  Your music raises their spirits or captures their sorrow.  Your dance steps captivate, your humor cuts to the quick.  Whatever techniques you use, your art is your life."
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["WIS", "CHA"]
   },
   "Folk Hero": {
     "description": [
-      
+      ""
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["WIS", "CHA"]
   },
   "Guild Artisan": {
     "description": [
-      
+      ""
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["DEX", "INT"]
   },
   "Hermit": {
     "description": [
-      
+      ""
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["CON", "WIS"]
+  },
+  "Laborer": {
+    "description": [
+      ""
+    ],
+    "attributes": ["CON", "WIS"]
   },
   "Noble": {
     "description": [
-      
+      ""
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["CON", "INT"]
   },
   "Outlander": {
     "description": [
-      
+      ""
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["CON", "WIS"]
   },
-  "Sage": {
+  "Scholar": {
     "description": [
-      
+      ""
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["INT", "WIS"]
   },
   "Sailor": {
     "description": [
-      
+      ""
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["DEX", "CHA"]
   },
   "Soldier": {
     "description": [
-      
+      ""
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["STR", "CON"]
   },
   "Urchin": {
     "description": [
-      
+      ""
     ],
-    "attribute": "WIS",
-    "trait": "1"
+    "attributes": ["DEX", "WIS"]
   }
 }

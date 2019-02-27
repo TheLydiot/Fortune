@@ -1,6 +1,9 @@
 {
   "Dwarf": {
     "name": "Dwarf",
+    "description": [
+      ""
+    ],
     "attributes": {
       "STR": [6, 5, 3],
       "DEX": [4, 4, 4],
@@ -9,6 +12,7 @@
       "WIS": [6, 4, 3],
       "CHA": [6, 4, 3]
     },
+    "backgrounds": ["Acolyte", "Charlatan", "Criminal", "Entertainer", "Folk Hero", "Guild Artisan", "Hermit", "Laborer", "Noble", "Outlander", "Scholar", "Soldier", "Urchin"],
     "classes": ["Bard", "Priest", "Rogue", "Fighter"]
   },
   "Elf": {
@@ -24,10 +28,14 @@
       "WIS": [6, 5, 3],
       "CHA": [6, 4, 3]
     },
+    "backgrounds": ["Acolyte", "Folk Hero", "Guild Artisan", "Laborer", "Noble", "Scholar", "Soldier"],
     "classes": ["Priest", "Fighter", "Wizard"]
   },
   "Halfling": {
     "name": "Halfling",
+    "description": [
+      ""
+    ],
     "attributes": {
       "STR": [4, 4, 4],
       "DEX": [6, 5, 3],
@@ -36,10 +44,14 @@
       "WIS": [6, 4, 3],
       "CHA": [6, 5, 3]
     },
+    "backgrounds": ["Acolyte", "Charlatan", "Criminal", "Entertainer", "Folk Hero", "Guild Artisan", "Hermit", "Laborer", "Outlander", "Scholar", "Sailor", "Urchin"],
     "classes": ["Bard", "Priest", "Rogue"]
   },
   "Human": {
     "name": "Human",
+    "description": [
+      ""
+    ],
     "attributes": {
       "STR": [6, 4, 3],
       "DEX": [6, 4, 3],
@@ -48,6 +60,7 @@
       "WIS": [6, 4, 3],
       "CHA": [6, 4, 3]
     },
+    "backgrounds": ["Acolyte", "Charlatan", "Criminal", "Entertainer", "Folk Hero", "Guild Artisan", "Hermit", "Laborer", "Noble", "Outlander", "Scholar", "Sailor", "Soldier", "Urchin"],
     "classes": ["Priest", "Rogue", "Fighter", "Wizard"]
   }
 }
