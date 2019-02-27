@@ -6,84 +6,126 @@
     "description": [
       "You have spent your time in the service of a temple to a specific god or pantheon of gods.  You act as an intermediary between the realm of the holy and the mortal world, performaing sacred rites and ofering sacrifices in order to conduct worshipers into the presence of the divine."
     ],
-    "attributes": ["INT", "WIS"]
+    "attributes": ["INT", "WIS"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Charlatan": {
     "description": [
       "You have always had a way with people.  You know what makes them tick, you can tease out their hearts' desires after a few minutes of conversation, and with a few leading questions you can read them like they were children's books.  It's a useful talent, and one that you're perfectly willing to use for your advantage."
     ],
-    "attributes": ["WIS", "CHA"]
+    "attributes": ["WIS", "CHA"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Criminal": {
     "description": [
       "You are an experienced criminal with a history of breaking the law.  You have spent a lot of time among other criminals and still have contacts within the criminal underworld.  You're far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society."
     ],
-    "attributes": ["INT", "CHA"]
+    "attributes": ["INT", "CHA"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Entertainer": {
     "description": [
       "You thrive in front of an audience.  You know how to entrance them, entertain them, and even inspire them.  Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger.  Your music raises their spirits or captures their sorrow.  Your dance steps captivate, your humor cuts to the quick.  Whatever techniques you use, your art is your life."
     ],
-    "attributes": ["WIS", "CHA"]
+    "attributes": ["WIS", "CHA"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Folk Hero": {
     "description": [
       ""
     ],
-    "attributes": ["WIS", "CHA"]
+    "attributes": ["WIS", "CHA"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Guild Artisan": {
     "description": [
       ""
     ],
-    "attributes": ["DEX", "INT"]
+    "attributes": ["DEX", "INT"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Hermit": {
     "description": [
       ""
     ],
-    "attributes": ["CON", "WIS"]
+    "attributes": ["CON", "WIS"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Laborer": {
     "description": [
       ""
     ],
-    "attributes": ["CON", "WIS"]
+    "attributes": ["CON", "WIS"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Noble": {
     "description": [
       ""
     ],
-    "attributes": ["CON", "INT"]
+    "attributes": ["CON", "INT"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Outlander": {
     "description": [
       ""
     ],
-    "attributes": ["CON", "WIS"]
+    "attributes": ["CON", "WIS"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Scholar": {
     "description": [
       ""
     ],
-    "attributes": ["INT", "WIS"]
+    "attributes": ["INT", "WIS"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Sailor": {
     "description": [
       ""
     ],
-    "attributes": ["DEX", "CHA"]
+    "attributes": ["DEX", "CHA"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Soldier": {
     "description": [
       ""
     ],
-    "attributes": ["STR", "CON"]
+    "attributes": ["STR", "CON"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   },
   "Urchin": {
     "description": [
       ""
     ],
-    "attributes": ["DEX", "WIS"]
+    "attributes": ["DEX", "WIS"],
+    "classes": [],
+    "mTraits": [],
+    "pTraits": []
   }
 }

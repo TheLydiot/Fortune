@@ -13,7 +13,9 @@
       "CHA": [6, 4, 3]
     },
     "backgrounds": ["Acolyte", "Charlatan", "Criminal", "Entertainer", "Folk Hero", "Guild Artisan", "Hermit", "Laborer", "Noble", "Outlander", "Scholar", "Soldier", "Urchin"],
-    "classes": ["Bard", "Priest", "Rogue", "Fighter"]
+    "classes": ["Bard", "Priest", "Rogue", "Fighter"],
+    "mTraits": [],
+    "pTraits": []
   },
   "Elf": {
     "name": "Elf",
@@ -29,7 +31,9 @@
       "CHA": [6, 4, 3]
     },
     "backgrounds": ["Acolyte", "Folk Hero", "Guild Artisan", "Laborer", "Noble", "Scholar", "Soldier"],
-    "classes": ["Priest", "Fighter", "Wizard"]
+    "classes": ["Priest", "Fighter", "Wizard"],
+    "mTraits": [],
+    "pTraits": []
   },
   "Halfling": {
     "name": "Halfling",
@@ -45,7 +49,9 @@
       "CHA": [6, 5, 3]
     },
     "backgrounds": ["Acolyte", "Charlatan", "Criminal", "Entertainer", "Folk Hero", "Guild Artisan", "Hermit", "Laborer", "Outlander", "Scholar", "Sailor", "Urchin"],
-    "classes": ["Bard", "Priest", "Rogue"]
+    "classes": ["Bard", "Priest", "Rogue"],
+    "mTraits": [],
+    "pTraits": []
   },
   "Human": {
     "name": "Human",
@@ -61,6 +67,8 @@
       "CHA": [6, 4, 3]
     },
     "backgrounds": ["Acolyte", "Charlatan", "Criminal", "Entertainer", "Folk Hero", "Guild Artisan", "Hermit", "Laborer", "Noble", "Outlander", "Scholar", "Sailor", "Soldier", "Urchin"],
-    "classes": ["Priest", "Rogue", "Fighter", "Wizard"]
+    "classes": ["Priest", "Rogue", "Fighter", "Wizard"],
+    "mTraits": [],
+    "pTraits": []
   }
 }

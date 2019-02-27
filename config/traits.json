@@ -1,7 +1,8 @@
 {
   "description": "traits give advantage/disadvantage on specific rolls",
   "mental": {
-    "foolish": "WIS saves 2 keep -1"
+    "foolish": "WIS saves 2 keep -1",
+    "clever": "INT saves 2 keep 1"
   },
   "physical": {
     "hardy": "HD = 2 keep 1"

@@ -24,7 +24,7 @@ CF.Create = (race) => {
   char.traits = CF.AssignTraits(char.race, char.background)
 
   //  generate attributes
-  char.attributes = CF.RollAttributes(char.race, char.background, char.traits);
+  char.attributes = CF.AssignAttributes(char.race, char.background, char.traits);
 
   //  player chooses class and name
   char.level = 0;
@@ -35,9 +35,10 @@ CF.Create = (race) => {
 
   char.toString = () => {
     let str = "";
-    str += "Name:" + char.name + "  " + "Race:" + char.race + "\n";
-    str += "Background:" + char.background + "  " + "Traits:" + char.traits + "\n";
+    str += "Name:" + char.name + "\n";
+    str += "Race:" + char.race + "  " + "Background:" + char.background + "  " + "\n";
     str += "Class:" + char.class + "  " + "Level:" + char.level + "\n";
+    str += char.traits.toString();
     str += "HP:" + char.currentHP + "/" + char.maxHP + "  " + "SP:" + char.currentSP + "/" + char.maxSP + "\n";
     str += char.attributes.toString();
     return str;
@@ -51,7 +52,7 @@ CF.AssignBackground = (race) => {
 }
 
 CF.AssignClass = (race, background) => {
-
+  return "";
 }
 
 CF.AssignRace = () => {
@@ -60,10 +61,27 @@ CF.AssignRace = () => {
 }
 
 CF.AssignTraits = (race, background) => {
-  return {};
+  let traits = {};
+
+  let mTraits = CF.Race[race].mTraits.filter(value => -1 !== CF.Background[background].mTraits.indexOf(value));
+  traits.mTraits = [];
+  traits.mTraits.push(mTraits[mTraits.length * Math.random() << 0]);
+
+  let pTraits = CF.Race[race].pTraits.filter(value => -1 !== CF.Background[background].pTraits.indexOf(value));
+  traits.pTraits = [];
+  traits.pTraits.push(pTraits[pTraits.length * Math.random() << 0]);
+
+  traits.toString = () => {
+    let str = "";
+    str += "Physical:" + traits.pTraits + "\n";
+    str += "Mental:" + traits.mTraits + "\n";
+    return str;
+  }
+
+  return traits;
 }
 
-CF.RollAttributes = (race, background, traits) => {
+CF.AssignAttributes = (race, background, traits) => {
   let atts = {};
   let args = [];
 
