@@ -27,12 +27,18 @@ Chargen.create = (race, klass, bgs) => {
   let bgKeys = Object.keys(Chargen.Backgrounds);
   char.background = bgKeys[bgKeys.length * Math.random() << 0];
 
-  // random traits
-  let traitKeys = Object.keys(Chargen.Traits);
-  char.traits = [].push(traitKeys[traitKeys.length * Math.random() << 0]);
+  // random traits, ony physical one mental
+  char.traits = [];
+  let pTraitKeys = Object.keys(Chargen.Traits.physical);
+  char.traits.push(pTraitKeys[pTraitKeys.length * Math.random() << 0]);
+  let mTraitKeys = Object.keys(Chargen.Traits.mental);
+  char.traits.push(mTraitKeys[mTraitKeys.length * Math.random() << 0]);
 
   // starting HP = 0.5 * CON rounded up + class HD
   char.maxHP = char.currentHP = Math.round(char.attributes.CON / 2) + Dice.roll(klass.HD);
+
+  // story = log of events
+  char.story = [];
 
   char.toString = () => {
     let str = "";
@@ -46,7 +52,8 @@ Chargen.create = (race, klass, bgs) => {
     str += "INT:" + char.attributes.INT + " ";
     str += "WIS:" + char.attributes.WIS + " ";
     str += "CHA:" + char.attributes.CHA + " ";
-    str += "HP:" + char.currentHP;
+    str += "HP:" + char.currentHP + "\n";
+    str += "Story:" + char.story;
     return "\n" + str;
   };
   return char;
