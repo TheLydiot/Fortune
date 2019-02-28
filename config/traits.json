@@ -1,10 +1,19 @@
 {
   "description": "traits give advantage/disadvantage on specific rolls",
   "mental": {
+    "perceptive": "WIS saves 2 keep 1",
     "foolish": "WIS saves 2 keep -1",
-    "clever": "INT saves 2 keep 1"
+    "clever": "INT saves 2 keep 1",
+    "dim": "INT saves 2 keep -1",
+    "glib": "CHA saves 2 keep 1",
+    "rude": "CHA saves 2 keep -1"
   },
   "physical": {
-    "hardy": "HD = 2 keep 1"
+    "hale": "CON saves 2 keep 1",
+    "frail": "CON saves 2 keep -1",
+    "clumsy": "DEX saves 2 keep -1",
+    "graceful": "DEX saves 2 keep 1",
+    "brawny": "STR saves 2 keep 1",
+    "scrawny": "STR saves 2 keep -1"
   } 
 }
