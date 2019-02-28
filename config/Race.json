@@ -20,7 +20,9 @@
   "Elf": {
     "name": "Elf",
     "description": [
-      "A race of beautiful, severe, disciplined academics."
+      "A race of beautiful, severe, disciplined academics.",
+      "Conceited and convinced of their superiority.",
+      "No time for frivolity--read philosophy instead."
     ],
     "attributes": {
       "STR": [4, 4, 4],

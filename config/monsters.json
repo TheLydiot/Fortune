@@ -1,7 +1,7 @@
 {
-  "_description": [
-
-  ],
+  "_description": {
+    "AC": "5e AC - 10; applied as a penalty on rolls to attack"
+  },
   "Ant, Driver": {},
   "Ape, White": {},
   "Baboon, Rock": {},
@@ -9,7 +9,17 @@
   "Bear, Black": {},
   "Bear, Cave": {},
   "Beetle, Giant Oil": {},
-  "Bugbear": {},
+  "Bugbear": {
+    "AC": "6",
+    "HP": "5d8+5",
+    "Speed": "30",
+    "STR": "15",
+    "DEX": "14",
+    "CON": "13",
+    "INT": "8",
+    "WIS": "11",
+    "CHA": "9"
+  },
   "Carrion Crawler": {},
   "Centipede, Giant": {},
   "Gargoyle": {},
@@ -26,7 +36,9 @@
   "Medusa": {},
   "Minotaur": {},
   "Ogre": {},
-  "Orc": {},
+  "Orc": {
+
+  },
   "Owlbear": {},
   "Rat, Giant": {},
   "Rust Monster": {},

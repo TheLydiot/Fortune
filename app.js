@@ -5,8 +5,12 @@
 //inquirer.prompt()
 
 //  engines
-const CF = require('./core/CharacterFoundry');
+// const CF = require('./core/CharacterFoundry');
+// let char = CF.Create();
+// console.log("Character:\n" + char);
 
+const Race = require('./config/Race.js');
 
-let char = CF.Create();
-console.log("Character:\n" + char);
+console.log(Race.Random());
+console.log(Race.Random());
+console.log(Race.Random());

@@ -4,7 +4,7 @@ const CF = {};
 
 CF.Dice = require('./dice');
 CF.Attribute = require('../config/attributes');
-CF.Race = require('../config/races');
+CF.Race = require('../config/Race');
 CF.Background = require('../config/backgrounds');
 CF.Trait = require('../config/traits');
 CF.Alignment = require('../config/alignments');
