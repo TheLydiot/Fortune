@@ -1,9 +1,12 @@
 {
   "Dwarf": {
-    "name": "Dwarf",
-    "description": [
-      ""
-    ],
+    "info": {
+      "name": "Dwarf",
+      "adjective": "Dwarvish",
+      "description": [
+
+      ]
+   },
     "attributes": {
       "STR": [6, 5, 3],
       "DEX": [4, 4, 4],
@@ -18,12 +21,15 @@
     "pTraits": []
   },
   "Elf": {
-    "name": "Elf",
-    "description": [
-      "A race of beautiful, severe, disciplined academics.",
-      "Conceited and convinced of their superiority.",
-      "No time for frivolity--read philosophy instead."
-    ],
+    "info": {
+      "name": "Elf",
+      "adjective": "Elven",
+      "description": [
+        "A race of beautiful, severe, disciplined academics.",
+        "Conceited and convinced of their superiority.",
+        "No time for frivolity--read philosophy instead."
+      ]
+    },
     "attributes": {
       "STR": [4, 4, 4],
       "DEX": [6, 4, 3],
@@ -36,6 +42,9 @@
     "classes": ["Priest", "Fighter", "Wizard"],
     "mTraits": [],
     "pTraits": []
+  },
+  "Gnome": {
+
   },
   "Halfling": {
     "name": "Halfling",
@@ -54,6 +63,12 @@
     "classes": ["Bard", "Priest", "Rogue"],
     "mTraits": [],
     "pTraits": []
+  },
+  "Half-Elf": {
+    
+  },
+  "Half-Orc": {
+
   },
   "Human": {
     "name": "Human",

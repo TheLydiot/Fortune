@@ -14,3 +14,5 @@ const Race = require('./config/Race.js');
 console.log(Race.Random());
 console.log(Race.Random());
 console.log(Race.Random());
+
+console.log(Race.GetInfo("Elf"));

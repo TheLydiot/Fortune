@@ -10,7 +10,7 @@ Race.Random = () => {
 }
 
 Race.GetInfo = (race) => {
-  return Race.races[race].description.toString();
+  return Race.Races[race].info.description.join('  ');
 }
 
 module.exports = Race;
