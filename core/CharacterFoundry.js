@@ -8,7 +8,7 @@ CF.Race = require('../config/Race');
 CF.Background = require('../config/backgrounds');
 CF.Trait = require('../config/traits');
 CF.Alignment = require('../config/alignments');
-CF.Class = require('../config/classes');
+CF.Class = require('../config/Class');
 CF.Languages = require('../config/languages');
 CF.Skills = require('../config/skills');
 
