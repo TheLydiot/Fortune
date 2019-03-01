@@ -12,7 +12,7 @@
 const Race = require('./config/Race.js');
 
 console.log(Race.Random());
-console.log(Race.Random());
-console.log(Race.Random());
-
 console.log(Race.GetInfo("Elf"));
+
+console.log(Class.Random());
+console.log(Class.GetInfo("Ranger"));
