@@ -9,7 +9,8 @@
     "attributes": ["INT", "WIS"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Charlatan": {
     "description": [
@@ -18,7 +19,8 @@
     "attributes": ["WIS", "CHA"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Criminal": {
     "description": [
@@ -27,7 +29,8 @@
     "attributes": ["INT", "CHA"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Entertainer": {
     "description": [
@@ -36,7 +39,8 @@
     "attributes": ["WIS", "CHA"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Folk Hero": {
     "description": [
@@ -45,7 +49,8 @@
     "attributes": ["WIS", "CHA"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Guild Artisan": {
     "description": [
@@ -54,7 +59,8 @@
     "attributes": ["DEX", "INT"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Hermit": {
     "description": [
@@ -63,7 +69,8 @@
     "attributes": ["CON", "WIS"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Laborer": {
     "description": [
@@ -72,7 +79,8 @@
     "attributes": ["CON", "WIS"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Noble": {
     "description": [
@@ -81,7 +89,8 @@
     "attributes": ["CON", "INT"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Outlander": {
     "description": [
@@ -90,7 +99,8 @@
     "attributes": ["CON", "WIS"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Scholar": {
     "description": [
@@ -99,7 +109,8 @@
     "attributes": ["INT", "WIS"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Sailor": {
     "description": [
@@ -108,7 +119,8 @@
     "attributes": ["DEX", "CHA"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Soldier": {
     "description": [
@@ -117,7 +129,8 @@
     "attributes": ["STR", "CON"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   },
   "Urchin": {
     "description": [
@@ -126,6 +139,7 @@
     "attributes": ["DEX", "WIS"],
     "classes": [],
     "mTraits": [],
-    "pTraits": []
+    "pTraits": [],
+    "organizations": []
   }
 }

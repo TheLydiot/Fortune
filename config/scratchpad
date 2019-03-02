@@ -1,0 +1,31 @@
+unopposed check is just success roll (usually d20) under ability score
+
+combat mechanic (opposed check):
+  no initiative, no damage dice
+  attack roll based on weapon size, effort, magic strength, etc
+    unarmed d4
+    dagger d6
+    arrow/bolt d8
+    axe/mace/sword d12
+    2h weapon d20
+
+    no upper bound, but success bounded by ability--you can roll too high
+    except magic, which always does its damage, but the margin of oversuccess you take as penalty
+  natural armor or worn armor as base armor
+    or magic resistance by type (which can be negative, eg metal armor and electricity)
+  add shield, dex, etc
+  if attack is <= armor it does no damage
+  if > armor and <= armor + shield/dex:
+    if dex, dodged
+    if shield, blocked
+  once, shield can be used to negate any physical blow, destroying it
+  armor can also take HP loss but loses armor per point of physical damage
+    clothing 1
+    leather 3
+    chain 5
+    plate 7
+    shield 2
+  evaluate in ascending order of attack roll
+    lowest successes go first, meaning low defense dies first
+    big damage pools like AoE spells go last
+  

@@ -1,6 +1,6 @@
 {
   "description": [
-    "from attribute list, pick 2 and roll-over d20 to improve"
+    "from attribute list, pick 2 and roll-over d20 to improve on level gain"
   ],
   "Champion": {
     "name": "Champion",
@@ -10,6 +10,7 @@
     "titles": ["Gallant", "Keeper", "Protector", "Defender", "Warder", "Guardian", "Chevalier", "Justiciar", "Paladin"],
     "xpRequired": ["1", "2751", "5501", "12001", "24001", "45001", "95001", "175001", "350001"],
     "skills": [],
+    "organizations": [],
     "notes": [
 
     ]
@@ -22,18 +23,51 @@
     "titles": ["Novice", "Initiate", "Brother", "Disciple", "Immaculate", "Master", "Superior Master", "Master of Dragons"],
     "xpRequired": ["1", "2251", "4751", "10001", "22501", "47501", "98001", "200001", "350001"],
     "skills": [],
+    "organizations": [],
     "notes": [
       "When leveling, can choose HD/SD 6 or 8"
     ]
   },
-  "Fighter": {
-    "name": "Fighter",
-    "HD": "8",
-    "SD": "4",
-    "attributes": ["STR", "DEX", "CON"],
-    "titles": ["Veteran", "Warrior", "Swordsman", "Hero", "Swashbuckler", "Myrmidon", "Champion", "Superhero", "Lord"],
-    "xpRequired": ["1", "2001", "4001", "8001", "18001", "35001", "70001", "125001", "250001"],
+
+  "Mage": {
+    "info": {
+      "name": "Mage",
+      "notes": [
+      
+      ]
+    },
+
+    "HD": "4",
+    "SD": "8",
+    "attibutes": ["INT", "WIS", "CON"],
+
+    "xpRequired": ["1", "2501", "5001", "10001", "22501", "40001", "60001", "90001", "135001"],
+    "titles": ["Prestidigitator", "Evoker", "Conjurer", "Theurgist", "Thaumaturgist", "Magician", "Enchanter", "Warlock", "Sorcerer"],
+
     "skills": [],
+    "organizations": [],
+
+    "schools": {
+      "Abjuration": {},
+      "Conjuration": {},
+      "Divination": {},
+      "Enchantment": {},
+      "Evocation": {},
+      "Illusion": {},
+      "Necromancy": {},
+      "Transmutation": {}
+    }
+  },
+
+  "Opportunist": {
+    "name": "Opportunist",
+    "HD": "6",
+    "SD": "6",
+    "attributes": ["STR", "DEX", "CON", "INT", "WIS", "CHA"],
+    "titles": ["Apprentice", "Footpad", "Cutpurse", "Robber", "Burglar", "Filcher", "Sharper", "Magsman", "Thief"],
+    "xpRequired": ["1", "1251", "2501", "5001", "10001", "20001", "42501", "70001", "110001"],
+    "skills": [],
+    "organizations": [],
     "notes": [
 
     ]
@@ -46,18 +80,7 @@
     "titles": ["Acolyte", "Adept", "Priest", "Curate", "Perfect", "Canon", "Lama", "Patriarch", "High Priest"],
     "xpRequired": ["1", "1501", "3001", "6001", "13001", "27501", "55001", "110001", "225001"],
     "skills": [],
-    "notes": [
-
-    ]
-  },
-  "Rogue": {
-    "name": "Rogue",
-    "HD": "6",
-    "SD": "6",
-    "attributes": ["STR", "DEX", "CON", "INT", "WIS", "CHA"],
-    "titles": ["Apprentice", "Footpad", "Cutpurse", "Robber", "Burglar", "Filcher", "Sharper", "Magsman", "Thief"],
-    "xpRequired": ["1", "1251", "2501", "5001", "10001", "20001", "42501", "70001", "110001"],
-    "skills": [],
+    "organizations": [],
     "notes": [
 
     ]
@@ -70,20 +93,37 @@
     "titles": ["Runner", "Strider", "Scout", "Courser", "Tracker", "Guide", "Pathfinder", "Ranger"],
     "xpRequired": ["1", "2251", "4501", "10001", "20001", "40001", "90001", "150001","225001"],
     "skills": [],
+    "organizations": [],
     "notes": [
 
     ]
   },
-  "Wizard": {
-    "name": "Wizard",
-    "HD": "4",
-    "SD": "8",
-    "attibutes": ["INT", "WIS", "CON"],
-    "titles": ["Prestidigitator", "Evoker", "Conjurer", "Theurgist", "Thaumaturgist", "Magician", "Enchanter", "Warlock", "Sorcerer"],
-    "xpRequired": ["1", "2501", "5001", "10001", "22501", "40001", "60001", "90001", "135001"],
+  "Warrior": {
+    "info": {
+      "name": "Warrior",
+      "notes": [
+
+      ]
+    },
+
+    "HD": "8",
+    "SD": "4",
+    "attributes": ["STR", "DEX", "CON"],
+
+    "xpRequired": ["1", "2001", "4001", "8001", "18001", "35001", "70001", "125001", "250001"],
+    "titles": ["Veteran", "Warrior", "Swordsman", "Hero", "Swashbuckler", "Myrmidon", "Champion", "Superhero", "Lord"],
+
     "skills": [],
-    "notes": [
-      
-    ]
+    "organizations": [],
+
+    "schools": {
+      "Armor and Shields": {},
+      "Great Weapons": {},
+      "Two Weapon Fighting": {},
+      "Battle Expertise": {
+        "info": "shouts, inspiration bonuses, etc."
+      },
+      "Archery": {}
+    }
   }
 }
