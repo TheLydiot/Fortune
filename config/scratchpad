@@ -1,7 +1,11 @@
 unopposed check is just success roll (usually d20) under ability score
+unopposed checks have passive difficulty: since point is under ability score, d20 tasks are hardest
 
 combat mechanic (opposed check):
   no initiative, no damage dice
+  movement is unopposed, DEX (or possibly STR) ability check only... resolution is by distance travelled, 10' per pt or successful roll, whichever is lower
+  opposed movement is same ability check but with possible failure and partial success like damage
+    how to score opposition to escape?  should be roughly DEX+STR-20
   attack roll based on weapon size, effort, magic strength, etc
     unarmed d4
     dagger d6
