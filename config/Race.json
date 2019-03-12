@@ -67,12 +67,6 @@
     "mTraits": [],
     "pTraits": []
   },
-  "Half-Elf": {
-    
-  },
-  "Half-Orc": {
-
-  },
   "Human": {
     "name": "Human",
     "description": [
@@ -88,6 +82,27 @@
     },
     "backgrounds": ["Acolyte", "Charlatan", "Criminal", "Entertainer", "Folk Hero", "Guild Artisan", "Hermit", "Laborer", "Noble", "Outlander", "Scholar", "Sailor", "Soldier", "Urchin"],
     "classes": ["Priest", "Rogue", "Fighter", "Wizard"],
+    "mTraits": [],
+    "pTraits": []
+  },
+  "Wolfen": {
+    "info": {
+      "name": "Wolfen",
+      "adjective": "Wolfen",
+      "description": [
+
+      ]
+   },
+    "attributes": {
+      "STR": [],
+      "DEX": [],
+      "CON": [],
+      "INT": [],
+      "WIS": [],
+      "CHA": []
+    },
+    "backgrounds": [],
+    "classes": [],
     "mTraits": [],
     "pTraits": []
   }

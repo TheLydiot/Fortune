@@ -1,0 +1,138 @@
+Classes
+class is a price list for purchasing / improving Attributes and Skills, and you can change classes any time after levelling in one
+
+spend xp to purchase “upgrades”:
+can roll on table for random class trait (only way to get these) or spend 2x as much to select one
+or spend on skills
+
+10 levels, emphasis on discovery and options rather than development and bonuses
+
+attribute and/or race requirement(s)
+starting skills if initial class
+
+
+Disciple
+"devoted to the cause"
+must be Lawful
+reqt: WIS 12
+damage and HD: d6
+any armor, shields, light weapons
+starting skills: perception and any one
+
+Body Mastery
+monk stuff
+
+Communion
+prayer (eg turn undead or heal wound)--choose at time of casting appropriate to deity, subject to approval
+borrows other schools of magic
+pray, meditate
+powers from higher being
+
+Life
+school of magic
+heal, cure, exorcise?, turn undead?, resurrect, reanimate
+
+Nature
+school of magic
+includes shapeshift
+
+Psionics
+school of magic
+
+
+
+Opportunist
+"pragmatism"
+reqt: INT 12 or DEX 12 or CHA 12
+no Lawful
+damage and HD: d6
+light armor, no shields, any weapons
+starting skills: any three
+
+Assassination
+including poisons
+
+Explosives
+
+Gadgetry
+
+Impersonation
+disguise, forge, mimic
+
+Performance
+entertain, persuade, inspire, taunt
+
+Sleight of Hand
+
+
+
+Sorcerer
+"hunger for power"
+must be Chaotic
+reqt: INT 12, acolyte / scholar
+damage and HD: d4
+no armor, no shields, light weapons
+starting skills: one of arcana, lore and any one
+
+Conjuration
+school of magic
+
+Elementalism
+school of magic
+
+Enchantment
+school of magic
+imbue items with magical properties
+includes alchemy; bonus to create or identify, opportunity for extra potency, recipe discovery
+
+Illusion
+school of magic
+
+Summoning
+school of magic
+
+MUs now have spell points (SP, mana, juju maybe).  Their total spell points are level + INT (languages) mod.  They may prepare any combination of spells known (and allowed by level per RAW) up to the their total spell points.
+
+Spells cost their level in points to cast.  But they do NOT necessarily disappear from memory.  To determine if a MU remembers a spell after casting it, roll a d6.  If the number rolled EXCEEDS (not ties) the level of the spell cast, it is not forgotten (but the spell points are still spent).
+
+I propose that Elves do NOT get this bonus--it's the differential a MU gains with his extra spellbook time while the Elf is sharpening his blade.
+
+Examples:
+
+1st level MU with INT 13 has 2 spell points.  He can only cast a maximum of 2 (prepared) spells per day, but has a 5 in 6 chance of remembering one if he casts it.
+
+4th level MU with INT 16 has 6 spell points.  Has access to 1st and 2nd level spells, with a good chance of remembering what he casts.
+
+Etc.  Immediate thoughts: high level magic can't be remembered (you could maybe add an INT factor to that).  MUs lucky enough to find a magic missile spell now have a pretty good means of attacking.
+
+
+
+
+Warrior
+"might makes right and practice makes perfect"
+reqt: STR 12
+damage and HD: d8
+no Alignment restriction
+any armor, shields, weapons
+starting skills: two of athletics, melee, missile weapons
+
+Features
+hale: from now one (including this level), HD is d12
+brutal: damage die = d12
+armor expertise: reduce readiness (move / enc?) penalty
+catch your breath: during combat, cast (can be interrupted) and gain 1d8 HP
+cleave: with a 2h weapon, any killing blow allows extra attack
+shield bash: with a shield, normal attack for d4 damage and 1-round stun
+weaponmaster: with two weapons equipped, attack and damage with advantage
+self-sacrifice: add your level in damage to a successful hit; attempt must be declared before attacking; hit or miss, suffer 1/2 * level HP damage (but you cannot die from this)
+
+Battle Mastery
+shout, stun, stomp, cleave
+Battle Mastery: A Fighter begins combat with d6 + level points.  These points may be added to ANY allied roll during combat (including by the Fighter himself).  The Fighter may never add more than his level to any roll.
+
+Great Weapons
+cleave
+
+Mounted Combat
+
+Shields

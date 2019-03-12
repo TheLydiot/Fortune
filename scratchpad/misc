@@ -1,0 +1,110 @@
+unopposed check is just success roll (usually d20) under ability score
+unopposed checks have passive difficulty: since point is under ability score, d20 tasks are hardest
+
+combat mechanic (opposed check):
+  no initiative, no damage dice
+  movement is unopposed, DEX (or possibly STR) ability check only... resolution is by distance travelled, 10' per pt or successful roll, whichever is lower
+  opposed movement is same ability check but with possible failure and partial success like damage
+    how to score opposition to escape?  should be roughly DEX+STR-20
+  attack roll based on weapon size, effort, magic strength, etc
+    unarmed d4
+    dagger d6
+    arrow/bolt d8
+    axe/mace/sword d12
+    2h weapon d20
+
+    no upper bound, but success bounded by ability--you can roll too high
+    except magic, which always does its damage, but the margin of oversuccess you take as penalty
+  natural armor or worn armor as base armor
+    or magic resistance by type (which can be negative, eg metal armor and electricity)
+  add shield, dex, etc
+  if attack is <= armor it does no damage
+  if > armor and <= armor + shield/dex:
+    if dex, dodged
+    if shield, blocked
+  once, shield can be used to negate any physical blow, destroying it
+  armor can also take HP loss but loses armor per point of physical damage
+    clothing 1
+    leather 3
+    chain 5
+    plate 7
+    shield 2
+  evaluate in ascending order of attack roll
+    lowest successes go first, meaning low defense dies first
+    big damage pools like AoE spells go last
+
+
+
+Reactions: 2d6 vs Morale; roll over +STR to intimidate, roll under -CHA to appease
+
+Tommy: NPCs have Willingness and Patience; PCs must raise Willingness to TN before Patience runs out
+so roll 2d6 iteratively?
+
+  
+Palladium / Fiend Folio flavor
+Races: my 6
+Attributes: standard 6
+Backgrounds: as part of race package
+Skills: useful for dungeons (TB?), ranks = number of d20s you roll for associated ability check, improve with use
+  Opportunist gets lots of points to invest, like 2e thief
+Professions: invest XP into Blacksmith, Merchant, etc. (start with 1 of these from background?)
+Classes: mine + Palladium magic Classes, use 2e kits where possible
+Alignment: BX
+
+Equipment: 2e
+
+Holy Magic: cleric prays on the spot for anything he knows, WIS check is to make sure God is pleased (why?  consequences? sounds like bs)
+Wizardry: memorize daily from book, INT check, schools invested in like skill trees, open up new spells (some do level-based damage etc)
+# casts per day by level
+start with 2e lists
+
+Initiative: DM fiat per DW
+HP: CON + class HD
+SP: WIS + class SD
+AC: 1/3/5/7
+To Hit Melee: roll under STR and above AC
+To Hit Ranged: roll under DEX and above AC
+Damage: by class HD
+
+Experience: treasure, table per class (1e?)
+
+Encumbrance: Hold / Wear / Carry per TB (actual layout)
+
+Turns per skill test / combat / etc, with TB's Grind and conditions
+  wandering monster checks
+  light sources
+  magical effects etc
+  
+Camp phase like TB with character development focus
+
+Monsters: FF / 2e, with lots of flavor and special attacks
+Treasure: 2e?
+
+Flavorful magic
+
+base test: roll under ability, 1/20/tied are fumble/critical/partial success (do and receive damage, set up better for next round, etc.)
+
+
+Strength
+describes everything about the character’s ability to create, withstand, and use physical force.  It is used when a character tries to physically harm someone or something at close range, when lifting or holding up something heavy, etc.  A high Strength 
+Dexterity
+is the ability of a character to run, dodge, avoid, and manipulate things.  It’s useful for everything from melee combat to dancing at the Royal Ball.  Skilled characters with high Dexterity can perform amazing feats of agility and quickness.
+Constitution
+describes how difficult it is to wound a character as well as resistance to poison and disease; it also factors into physical endurance and fatigue.
+Intellect
+is a description of the depth of a character’s knowledge, memory, and general intellectual ability.  Mind is used to “know” and remember things, learn languages and skills, etc.  A high Intellect is required to learn and use magic.
+Perception
+measures a character’s ability to synthesize information, as well as describes general “situational awareness”, including the ability to detect intentions and motives.
+Discipline
+describes ability to perservere mentally (such as avoiding spell interruption, meditating, or improving a skill)
+Empathy
+ability to understand others in terms of desires, motivations, intent, etc.
+Charisma
+is a character’s ability to persuade or intimidate and generally describes social skill.  It is also 
+Ego
+“social constitution”--how confident a character is (sometimes tested as morale)
+
+
+When a PC tries to intimidate, throw 2d6 + STR modifier.  If the result exceeds the monster's Morale, it is fearful / obedient / etc.
+
+When a PC tries to appease, throw 2d6 - CHA modifier.  If the result is less than the monster's Morale, it is peaceful / cooperative / etc.

@@ -1,0 +1,114 @@
+Dwarf
+  Description
+    Short, stocky, usually bearded.  Grizzled and wrinkled, but usually in a kind way.  Usually. The deeper you delve, the bigger and crankier Dwarves get.  They suffer penalties in direct sunlight but have darkvision.  No Large weapons.
+  Racial Trait
+    You can see in all but magical darkness, but take -1 on all moves in bright light without protective eyewear.
+  Dwarven Society
+    Large underground cities and mine complexes.  Organized in clans that worship ancestors.  Society respects material wealth, honor, and perseverance.  And booze.  Most non-healing magic use looked on with discomfort if not outright hostility and scorn, though it is tolerated in other races.
+  Societal Traits
+    Choose two:
+      You’re an expert in mining and underground construction.  Take +2 on investigate rolls underground.
+      The forge is your home.  Take +2 on all smithing rolls.
+      You’ve got a good eye.  Take +2 on appraisal rolls of non-magical items (+2 to rolls in shops to find well-constructed items?).
+      You drink so much you can’t get sick.  Nothing can survive inside you.  Take +2 on defy rolls vs. poison and disease.  
+
+backgrounds:
+Acolyte
+Artisan
+Criminal
+Entertainer
+Merchant
+Noble
+Scholar
+Soldier
+
+Elf
+  Description
+    Forest-dwelling, long-lived, and tall and thin.
+  Racial Trait
+    Your senses are exceptional.  Take +2 on perceive rolls.
+  Elvish Society
+    Society is very flat, with local Elders that heed a permanent Council.  Tends towards an ascetic and nomadic lifestyle, and respect is given to those who achieve much in the way of service to others and nature.
+  Societal Traits
+    Choose two:
+      You have an awesome sense of direction.  Take +2 on navigate rolls.
+      You’re an animal whisperer.  Take +2 vs. animals on all rolls except assault.
+      You can commune with nature itself.  Take +2 on outdoor investigate rolls.
+      You are a trained tracker and scout.
+
+backgrounds:
+Acolyte
+Artisan
+Criminal
+Entertainer
+Outlander
+Sailor
+Scholar
+Soldier
+
+
+Gnome
+  Description
+    Cousins to Dwarves, but prefer some sunlight.  No beards, and a bit slimmer and shorter.  Inquisitive and smart.
+  Racial Trait
+    You’re a magical prodigy.  Pick two (additional) schools of magic to read, write, and speak.
+  Gnomish Society
+    No large governments to speak of.  Society is very communal, and wealth is pursued but shared with family and close friends.  Heroes have been sorcerers and inventors.
+  Societal Traits
+    Choose two:
+      You’re a polyglot.  Pick two (additional) languages to read, write, and speak.
+
+
+
+Halfling
+  Description
+    “The little folk”, short and slightly rotund but very quick, and live in hillside burrows.  Medium weapons in two hands, no Large weapons.
+  Racial Trait
+    You’re very difficult to hit.  Take +2 on avoid rolls.
+  Halfling Society
+    Villages of hillside burrows near or among Human settlements and lands.  Form their own communities but are happy to mingle with and pay tribute to Humans.  They’d have them over for dinner, but no one would fit.
+  Societal Traits
+    Choose two:
+      You’re an incredible chef.  Your meals and rations provide bonuses to Constitution, Discipline and Ego.
+      You’re a born entertainer.  When appropriate, you may converse with an entire group of people at +2.
+      You’re uncannily accurate with thrown weapons.  When near your target, take +2 on assault rolls when using a thrown weapon.
+
+backgrounds:
+Acolyte
+Artisan
+Criminal
+Entertainer
+Merchant
+Outlander
+Sailor
+Soldier
+
+
+Human
+  Description
+    Just what you’d expect.  Maybe a bit hardier.  Life’s tough.
+  Racial Trait
+    You’re extra hard to finish off.  Take +2 on cheat death rolls.
+  Human Society
+    Humans seem to have some kind of magical evolution-proof survival mechanism.  There are always more of them, and they seem to just keep coming.  Most societies are feudal with kingdom size limited by travel times and boundaries.  Occasionally an independent city-state will organize around a specific group of people (a Circle of Magi, a Thieves’ Guild, etc.).
+  Societal Traits
+    Choose two:
+      You’re street smart.  You know people who know people.  Take +2 on connect rolls.
+      You’re a born entrepreneur.  Take +2 on all trade rolls.
+      You’re a politician.  Take +2 on converse rolls.
+
+backgrounds:
+Acolyte
+Artisan
+Criminal
+Entertainer
+Merchant
+Noble
+Outlander
+Sailor
+Scholar
+Soldier
+
+
+Wolfen
+
