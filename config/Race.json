@@ -34,8 +34,8 @@
       "STR": [4, 4, 4],
       "DEX": [6, 4, 3],
       "CON": [4, 4, 4],
-      "INT": [6, 6, 3],
-      "WIS": [6, 5, 3],
+      "INT": [6, 5, 3],
+      "WIS": [6, 6, 3],
       "CHA": [6, 4, 3]
     },
     "backgrounds": ["Acolyte", "Folk Hero", "Guild Artisan", "Laborer", "Noble", "Scholar", "Soldier"],
